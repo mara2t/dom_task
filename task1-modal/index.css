@@ -1,0 +1,65 @@
+body {
+  background: #eff2f5;
+}
+.main {
+  width: 600px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 20px 0 28px;
+  width: 396px;
+  align-items: center;
+  background-color: rgb(255 255 255);
+  margin-left: 40%;
+}
+
+.phone,
+.email {
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  border: 1px solid #dddfe2;
+  background: #ffffff;
+  height: 22px;
+  line-height: 16px;
+  vertical-align: middle;
+}
+.phone-error,
+.email-error {
+  color: red;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 20px;
+  display: none;
+}
+
+.btn-login {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  background-color: #28bccc;
+  font-size: 25px;
+  font-weight: bold;
+  width: 400px;
+  height: 200px;
+  margin-top: 7%;
+  border: 1px solid #1877f2;
+}
+.close-btn {
+  border: 2px solid #1877f2;
+  background-color: #1877f2;
+  border-radius: 6px;
+  width: 50px;
+}
